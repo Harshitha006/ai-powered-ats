@@ -1,0 +1,23 @@
+Change title and description in home.tsx.
+delete welcome folder
+to clear errors that occur after that(error occurs because welcome folder previously consisted of the import statement): Hence change:
+
+import type {Route} from "./+types/home";
+
+- and the app still needs the logo that was used back in the welcome page.
+- So once we delete it, we might need to reload our application by re-running
+    npm run dev.
+
+In the app, create a new Directory - components
+
+create Navbar.tsx
+=> rafce
+home.tsx
+In main function: 
+<Navbar />
+
+In the app, create a new directory - constants
+under which you need to create a index.ts file
+
+export const resumes: Resume[] = [] // here the Resume is not identified, you need to create a type for it.
+Cerate a folder within the root of the application folder
